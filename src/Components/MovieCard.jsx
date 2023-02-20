@@ -1,7 +1,9 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./movidecard.css";
-function MovieCard({ title, description, poster }) {
+import React from 'react'
+import ReactStars from 'react-stars'
+function MovieCard({ title, description, poster,rating }) {
   return (
     <>
       <div className="text-around">
@@ -17,7 +19,14 @@ function MovieCard({ title, description, poster }) {
                 <div className="text-around">
                   <Card.Title>{title}</Card.Title>
                   <Card.Text>{description}</Card.Text>
+                  <ReactStars
+                    count={5}
+                    value={rating}
+                    size={24}
+                    color2={'#ffd700'} 
+                    />
                 </div>
+              
               </Card.Body>
             </div>
           </div>

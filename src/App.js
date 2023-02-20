@@ -14,7 +14,7 @@ const [infos,setInfos] = useState ([{
   year: '2011',
   director: 'Kenneth Branagh',
   cast: ['Chris Hemsworth','Anthony Hopkins','Natalie Portman'],
-  rating: 8.7,
+  rating: 1,
   imdbLink: 'https://www.imdb.com/title/tt0800369/',
   poster:  'http://media.comicbook.com/2017/10/thor-movie-poster-marvel-cinematic-universe-1038890.jpg'
 },
@@ -25,7 +25,7 @@ const [infos,setInfos] = useState ([{
   year: '1994',
   director: 'Frank Darabont',
   cast: ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton'],
-  rating: 9.3,
+  rating: 1,
   imdbLink: 'https://www.imdb.com/title/tt0111161/',
   poster: "https://i.ebayimg.com/images/g/XxMAAOSw~zFg4aCs/s-l1600.jpg"
 },
@@ -36,7 +36,7 @@ const [infos,setInfos] = useState ([{
   year: '1991',
   director: 'Jonathan Demme',
   cast: ['Jodie Foster', 'Anthony Hopkins', 'Lawrence A. Bonney'],
-  rating: 8.6,
+  rating: 5,
   imdbLink: 'https://www.imdb.com/title/tt0102926/',
   poster: "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg"
 },
@@ -47,7 +47,7 @@ const [infos,setInfos] = useState ([{
   year: '2001',
   director: 'Hayao Miyazaki',
   cast: ['Daveigh Chase', 'Suzanne Pleshette', 'Miyu Irino'],
-  rating: 8.6,
+  rating: 4,
   imdbLink: 'https://www.imdb.com/title/tt0245429/',
   poster: "https://m.media-amazon.com/images/I/412B0Cvv2GL._AC_UF894,1000_QL80_.jpg"
 },
@@ -58,7 +58,7 @@ const [infos,setInfos] = useState ([{
   year: '1997',
   director: 'Paul Verhoeven',
   cast: ['Casper Van Dien', 'Denise Richards', 'Dina Meyer'],
-  rating: 7.2,
+  rating: 3,
   imdbLink: 'https://www.imdb.com/title/tttt0120201/',
   poster: "https://m.media-amazon.com/images/I/71hb4WtXvHL._AC_UF894,1000_QL80_.jpg"
 },{
@@ -68,7 +68,7 @@ const [infos,setInfos] = useState ([{
   year: '2011',
   director: 'Kenneth Branagh',
   cast: ['Chris Hemsworth','Anthony Hopkins','Natalie Portman'],
-  rating: 8.7,
+  rating: 4,
   imdbLink: 'https://www.imdb.com/title/tt0800369/',
   poster:  'http://media.comicbook.com/2017/10/thor-movie-poster-marvel-cinematic-universe-1038890.jpg'
 },
@@ -79,7 +79,7 @@ const [infos,setInfos] = useState ([{
   year: '1994',
   director: 'Frank Darabont',
   cast: ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton'],
-  rating: 9.3,
+  rating: 4,
   imdbLink: 'https://www.imdb.com/title/tt0111161/',
   poster: "https://i.ebayimg.com/images/g/XxMAAOSw~zFg4aCs/s-l1600.jpg"
 },
@@ -90,7 +90,7 @@ const [infos,setInfos] = useState ([{
   year: '1991',
   director: 'Jonathan Demme',
   cast: ['Jodie Foster', 'Anthony Hopkins', 'Lawrence A. Bonney'],
-  rating: 8.6,
+  rating: 5,
   imdbLink: 'https://www.imdb.com/title/tt0102926/',
   poster: "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg"
 },
@@ -101,7 +101,7 @@ const [infos,setInfos] = useState ([{
   year: '2001',
   director: 'Hayao Miyazaki',
   cast: ['Daveigh Chase', 'Suzanne Pleshette', 'Miyu Irino'],
-  rating: 8.6,
+  rating: 1,
   imdbLink: 'https://www.imdb.com/title/tt0245429/',
   poster: "https://m.media-amazon.com/images/I/412B0Cvv2GL._AC_UF894,1000_QL80_.jpg"
 },
@@ -112,7 +112,7 @@ const [infos,setInfos] = useState ([{
   year: '1997',
   director: 'Paul Verhoeven',
   cast: ['Casper Van Dien', 'Denise Richards', 'Dina Meyer'],
-  rating: 7.2,
+  rating: 4,
   imdbLink: 'https://www.imdb.com/title/tttt0120201/',
   poster: "https://m.media-amazon.com/images/I/71hb4WtXvHL._AC_UF894,1000_QL80_.jpg"
 },
@@ -123,7 +123,7 @@ const [infos,setInfos] = useState ([{
     year: '2011',
     director: 'Kenneth Branagh',
     cast: ['Chris Hemsworth','Anthony Hopkins','Natalie Portman'],
-    rating: 8.7,
+    rating: 3,
     imdbLink: 'https://www.imdb.com/title/tt0800369/',
     poster:  'http://media.comicbook.com/2017/10/thor-movie-poster-marvel-cinematic-universe-1038890.jpg'
   },
@@ -134,7 +134,7 @@ const [infos,setInfos] = useState ([{
     year: '1994',
     director: 'Frank Darabont',
     cast: ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton'],
-    rating: 9.3,
+    rating: 5,
     imdbLink: 'https://www.imdb.com/title/tt0111161/',
     poster: "https://i.ebayimg.com/images/g/XxMAAOSw~zFg4aCs/s-l1600.jpg"
   },
@@ -145,7 +145,7 @@ const [infos,setInfos] = useState ([{
     year: '1991',
     director: 'Jonathan Demme',
     cast: ['Jodie Foster', 'Anthony Hopkins', 'Lawrence A. Bonney'],
-    rating: 8.6,
+    rating: 2,
     imdbLink: 'https://www.imdb.com/title/tt0102926/',
     poster: "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,677,1000_AL_.jpg"
   },
@@ -156,7 +156,7 @@ const [infos,setInfos] = useState ([{
     year: '2001',
     director: 'Hayao Miyazaki',
     cast: ['Daveigh Chase', 'Suzanne Pleshette', 'Miyu Irino'],
-    rating: 8.6,
+    rating: 2,
     imdbLink: 'https://www.imdb.com/title/tt0245429/',
     poster: "https://m.media-amazon.com/images/I/412B0Cvv2GL._AC_UF894,1000_QL80_.jpg"
   },
@@ -167,7 +167,7 @@ const [infos,setInfos] = useState ([{
     year: '1997',
     director: 'Paul Verhoeven',
     cast: ['Casper Van Dien', 'Denise Richards', 'Dina Meyer'],
-    rating: 7.2,
+    rating: 4,
     imdbLink: 'https://www.imdb.com/title/tttt0120201/',
     poster: "https://m.media-amazon.com/images/I/71hb4WtXvHL._AC_UF894,1000_QL80_.jpg"
   },
@@ -183,7 +183,7 @@ const addMovie = (newMovie) => {setInfos([...infos,newMovie])}
 <Header />
 <AddMovie add={addMovie}/>
 <div className='container-cards'>
-{infos.map((el) =>( <MovieCard title={el.title} description={el.description} poster={el.poster} />))}
+{infos.map((el) =>( <MovieCard title={el.title} description={el.description} poster={el.poster} rating={el.rating} />))}
 </div>
   </>
   );
