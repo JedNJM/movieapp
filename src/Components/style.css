@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    justify-content: center; /* centers the image horizontally */
+    align-items: center; /* centers the image vertically */
+    height: 100px; /* set the height to your desired value */
+    background-color: #fff; /* set the background color to your desired value */
+  }
+  
