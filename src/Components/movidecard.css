@@ -8,8 +8,13 @@
 
   .text-around{
     display: flex;
-    
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .centered{
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
