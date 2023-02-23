@@ -22,6 +22,7 @@ function MovieCard({ title, description, poster,rating }) {
                   <ReactStars
                     count={5}
                     value={rating}
+                    edit={false}
                     size={24}
                     color2={'#ffd700'} 
                     />

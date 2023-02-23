@@ -215,7 +215,7 @@ function App() {
       <AddMovie add={addMovie} />
       <div className="container-cards">
         {infos
-          .filter((el) => (el.title.includes(search) )&& (el.rating>=rate))
+          .filter((el) => (el.title.includes(search) )&& (el.rating >= rate))
           .map((el) => (
             <MovieCard
               title={el.title}

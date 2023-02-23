@@ -8,7 +8,7 @@ function AddMovie({add}) {
     
   });
   return <>
-  <div style={{}}>
+  <div className="align-add">
   <input type="text" placeholder="Title" onChange={(e) =>setMovie({...movie,title:e.target.value})}/>
   <input type="text" placeholder="Description" onChange={(e) =>setMovie({...movie,description:e.target.value})}/>
   <input type="text" placeholder="Rating" onChange={(e) =>setMovie({...movie,rating:e.target.value})}/>

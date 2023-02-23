@@ -5,7 +5,12 @@
     gap: 100px !important;
   }
 
-
+  .align-add{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+     
+  }
   .text-around{
     display: flex;
     flex-direction: column;
