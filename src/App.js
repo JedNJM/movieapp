@@ -204,14 +204,18 @@ function App() {
     setInfos([...infos, newMovie]);
   };
   const [search, setSearch] = useState("");
+  const [rate, setrate] = useState(0)
+  const ratingfnc=(x)=>{
+    setrate(x)
+  }
   return (
     <>
-      <NavScrollExample setSearch={setSearch} />
+      <NavScrollExample setSearch={setSearch} rating={ratingfnc}/>
       <Header />
       <AddMovie add={addMovie} />
       <div className="container-cards">
         {infos
-          .filter((el) => (el.title.includes(search) ))
+          .filter((el) => (el.title.includes(search) )&& (el.rating>=rate))
           .map((el) => (
             <MovieCard
               title={el.title}

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -5,7 +6,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function NavScrollExample({ setSearch,setStars }) {
+function NavScrollExample({ setSearch,setStars ,rating }) {
+
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -45,7 +47,7 @@ function NavScrollExample({ setSearch,setStars }) {
               onChange={(e) => setSearch(e.target.value)}
             />
             <Button variant="outline-success">Search</Button>
-            <Form.Select aria-label="Default select example" onChange={(e)=>(setStars(e.target.value))}>
+            <Form.Select aria-label="Default select example" onChange={(e)=>(rating(e.target.value))}>
       <option value="0">Choose Rating</option>
       <option value="1">1 Star</option>
       <option value="2">2 Star</option>
