@@ -210,7 +210,7 @@ function App() {
   }
   return (
     <>
-      <NavScrollExample setSearch={setSearch} rating={ratingfnc}/>
+      <NavScrollExample setSearch={setSearch} rating={setrate}/>
       <Header />
       <AddMovie add={addMovie} />
       <div className="container-cards">
