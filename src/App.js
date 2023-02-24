@@ -192,7 +192,7 @@ function App() {
         "Humans in a fascistic, militaristic future do battle with giant alien bugs in a fight for survival.",
       duration: "129",
       year: "1997",
-      director: "Paul Verhoeven",
+      director: "Paul f",
       cast: ["Casper Van Dien", "Denise Richards", "Dina Meyer"],
       rating: 4,
       imdbLink: "https://www.imdb.com/title/tttt0120201/",
