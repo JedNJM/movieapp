@@ -7,7 +7,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScrollExample({ setSearch, rating }) {
-
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -20,7 +19,6 @@ function NavScrollExample({ setSearch, rating }) {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-         
           </Nav>
           <Form className="d-flex">
             <div></div>
@@ -33,15 +31,17 @@ function NavScrollExample({ setSearch, rating }) {
               onChange={(e) => setSearch(e.target.value)}
             />
             <Button variant="outline-success">Search</Button>
-            <Form.Select aria-label="Default select example" onChange={(e)=>(rating(e.target.value))}>
-      <option value="0">Choose Rating</option>
-      <option value="1">1 Star</option>
-      <option value="2">2 Star</option>
-      <option value="3">3 Star</option>
-      <option value="4">4 Star</option>
-      <option value="5">5 Star</option>
-    </Form.Select>
-
+            <Form.Select
+              aria-label="Default select example"
+              onChange={(e) => rating(e.target.value)}
+            >
+              <option value="0">Choose Rating</option>
+              <option value="1">1 Star</option>
+              <option value="2">2 Star</option>
+              <option value="3">3 Star</option>
+              <option value="4">4 Star</option>
+              <option value="5">5 Star</option>
+            </Form.Select>
           </Form>
         </Navbar.Collapse>
       </Container>

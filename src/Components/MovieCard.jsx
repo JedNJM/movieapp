@@ -3,16 +3,17 @@ import Card from "react-bootstrap/Card";
 import "./movidecard.css";
 import React from 'react'
 import ReactStars from 'react-stars'
+import { Link } from "react-router-dom";
 function MovieCard({ title, description, poster,rating }) {
   return (
     <>
       <div className="text-around">
         <Card style={{ width: "18rem" }}>
-          <Card.Img
+         <Link to="/desc" state={{movie:{ title, description, poster,rating }}}> <Card.Img
             variant="top"
             style={{ height: "450px", width: "18rem" }}
             src={poster}
-          />
+          /></Link>
           <div className="text-around">
             <div style={{ minHeight: 200 }}>
               <Card.Body>
